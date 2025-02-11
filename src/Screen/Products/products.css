@@ -1,0 +1,36 @@
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 16px;
+    min-height: 50vh; /* Reduced height so both fit well */
+    width: 100%;
+    
+}
+
+.product-column {
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    grid-template-columns: repeat(4, 1fr);
+    border: 2px solid blue;
+    
+}
+
+/* Add margin between grids */
+.products-container:not(:first-child) {
+    margin-top: 20px;
+}
+
+/* Background Colors */
+
+
+.lptop{
+    width: 100px;
+    height: auto;
+}

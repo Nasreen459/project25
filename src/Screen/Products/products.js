@@ -14,7 +14,7 @@ import phone from '../../Asstes/phone.jpeg';
 
 const Products = () => {
     return (
-        <div>
+        <div className="background">
             {/* First Products Grid */}
             <div className="products-container">
                 <div className="product-column blue">

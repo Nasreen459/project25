@@ -3,34 +3,30 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
     padding: 16px;
-    min-height: 50vh; /* Reduced height so both fit well */
-    width: 100%;
-    
+    min-height: 50vh;
+    width: 90%; /* Reduce width slightly to prevent overflow */
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .product-column {
-    padding: 24px;
+    padding: 16px;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     display: flex;
+    flex-direction: column; /* Ensures content is stacked */
     align-items: center;
     justify-content: center;
-    height: 90%;
-    grid-template-columns: repeat(4, 1fr);
+    height: 250px; /* Ensures uniform height */
+    width: 100%; /* Ensures uniform width */
     border: 2px solid blue;
-    
+    background-color: #fff; /* Prevents box shrinkage */
 }
 
-/* Add margin between grids */
-.products-container:not(:first-child) {
-    margin-top: 20px;
-}
-
-/* Background Colors */
-
-
-.lptop{
-    width: 100px;
-    height: auto;
+.product-column img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the box */
+    border-radius: 10px;
 }

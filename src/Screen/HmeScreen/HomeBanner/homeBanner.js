@@ -1,7 +1,6 @@
 import React from 'react'
 import './homeBanner.css'
-import homeBannerItemProduct from '../../../homeproduct.json'
-
+import homeBannerItemProduct from '../../../homeproduct.json';
 const HomeBanner = () => {
     return (
         <div className="homeBanner">

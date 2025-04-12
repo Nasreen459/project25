@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Nasreen459/project25/static/css/main.e2254c6b.css",
+    "main.js": "/Nasreen459/project25/static/js/main.22be5106.js",
+    "static/js/488.3ad5bb7e.chunk.js": "/Nasreen459/project25/static/js/488.3ad5bb7e.chunk.js",
+    "static/media/amazon.png": "/Nasreen459/project25/static/media/amazon.823ce8b0ad2df58f36dd.png",
+    "static/media/charger.jpeg": "/Nasreen459/project25/static/media/charger.5d009ebcf95ce2956ea8.jpeg",
+    "static/media/phone.jpeg": "/Nasreen459/project25/static/media/phone.f23211f626096987f818.jpeg",
+    "static/media/ear.jpeg": "/Nasreen459/project25/static/media/ear.a8ca899bba0cb45502ee.jpeg",
+    "static/media/computer.jpeg": "/Nasreen459/project25/static/media/computer.53a30639b389e2437c78.jpeg",
+    "static/media/tab.jpeg": "/Nasreen459/project25/static/media/tab.921b301bce7a6c7b8eed.jpeg",
+    "static/media/laptop.jpeg": "/Nasreen459/project25/static/media/laptop.2383263115a17f82229c.jpeg",
+    "static/media/bluetooth.jpeg": "/Nasreen459/project25/static/media/bluetooth.1ee94d1730a0052e404f.jpeg",
+    "index.html": "/Nasreen459/project25/index.html",
+    "main.e2254c6b.css.map": "/Nasreen459/project25/static/css/main.e2254c6b.css.map",
+    "main.22be5106.js.map": "/Nasreen459/project25/static/js/main.22be5106.js.map",
+    "488.3ad5bb7e.chunk.js.map": "/Nasreen459/project25/static/js/488.3ad5bb7e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2254c6b.css",
+    "static/js/main.22be5106.js"
+  ]
+}

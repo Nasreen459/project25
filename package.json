@@ -1,135 +1,52 @@
 {
   "homepage": "https://github.com/Nasreen459/project25",
-  
   "name": "amazon-frontend1",
-  
   "version": "0.1.0",
-  
   "private": true,
-  
   "dependencies": {
-  
-    
-  "@emotion/react": "^11.14.0",
-  
-    
-  "@emotion/styled": "^11.14.0",
-  
-    
-  "@mui/icons-material": "^6.4.3",
-  
-    
-  "@mui/material": "^6.4.3",
-  
-    
-  "cra-template": "1.2.0",
-  
-    
-  "react": "^19.0.0",
-  
-    
-  "react-dom": "^19.0.0",
-  
-    
-  "react-router-dom": "^7.1.5",
-  
-    
-  "react-scripts": "5.0.1",
-  
-    
-  "web-vitals": "^4.2.4"
-  
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.3",
+    "@mui/material": "^6.4.3",
+    "cra-template": "1.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^4.2.4"
   },
-  
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "npm run deploy",
-  
-    
-  "start": "react-scripts start",
-  
-    
-  "build": "react-scripts build",
-  
-    
-  "test": "react-scripts test",
-  
-    
-  "eject": "react-scripts eject"
-  
-  
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "git-push": "git add . && git commit -m \"auto commit\" && git push"
   },
-  
   "eslintConfig": {
-  
-    
-  "extends": [
-  
-    
-    
-  "react-app",
-  
-    
-    
-  "react-app/jest"
-  
-    
-  ]
-  
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  
   "browserslist": {
-  
-    
-  "production": [
-  
-    
-    
-  ">0.2%",
-  
-    
-    
-  "not dead",
-  
-    
-    
-  "not op_mini all"
-  
-    
-  ],
-  
-    
-  "development": [
-  
-    
-    
-  "last 1 chrome version",
-  
-    
-    
-  "last 1 firefox version",
-  
-    
-    
-  "last 1 safari version"
-  
-    
-  ]
-  
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
-  
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  
   "main": "index.js",
-  
   "devDependencies": {
-  
-    
-  "gh-pages": "^6.3.0"
-  
+    "gh-pages": "^6.3.0"
   },
-  
   "author": "",
-  
   "license": "ISC"
 }
